@@ -1,27 +1,31 @@
 # How Are my Coins Doing?
+
+> The web app that seeks to tell you how your coins are doing 🚀
+
 - [How Are my Coins Doing?](#how-are-my-coins-doing)
-  - [What does it do?](#what-does-it-do)
+  - [What does it do? 🤔](#what-does-it-do-%F0%9F%A4%94)
+        - [Idea: 💡](#idea-%F0%9F%92%A1)
     - [Backend Application:](#backend-application)
-      - [Developing:](#developing)
+      - [Developing: 🔨](#developing-%F0%9F%94%A8)
     - [Front End Applicaiton:](#front-end-applicaiton)
-      - [Developing:](#developing)
-      
-> The web app that seeks to tell yo how your coins are doing
+      - [Developing: 🔨](#developing-%F0%9F%94%A8)
 
-## What does it do?
+## What does it do? 🤔
 
-> Though the App is currently in development, the road map contians two key features.
+> Though the App is currently in development, the road map contians two 🔑 features.
 
-1) To allow the user to create a user account
+* To allow the user to create a user account
   - This functionality is just so that  `How Are My Coins` can remember whom created which Altfolio.
-2) Allow users to create a sample Altfolio by specifing: 
+
+* Allow users to create a sample Altfolio by specifing: 
   - Which curriencies should be in the Altfolio
   - How much of each currency should be in there
 
-The idea behind building something this simple is to accomplish two things:
+##### Idea: 💡
+> To accomplish two things:
 
-1) Allow me to go to **one** place to get an idea of how my +20 crypto currencies are doing
-2) Allow me to play around with and build experiemental ALtfolios without having to sign up for anything or use real money,
+* Allow me to go to **one** place to get an idea of how my +20 crypto currencies are doing
+* Allow me to play around with and build experiemental ALtfolios without having to sign up for anything or use real money,
 
 ### Backend Application:
 
@@ -37,7 +41,7 @@ Right now the API has two endpoints:
   - GET: Will return one collection:
     - Coin Market Cap, coin data
 
-#### Developing:
+#### Developing: 🔨
 
 ```sh
 $ cd hamc-express
@@ -48,7 +52,7 @@ $ yarn start or nodemon (whichever you prefer)
 
 Can be found at: https://howaremycoins.firebaseapp.com/
 
-#### Developing:
+#### Developing: 🔨
 
 ```sh
 $ cd hamc-client
